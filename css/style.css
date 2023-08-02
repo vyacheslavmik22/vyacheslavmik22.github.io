@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+   /* ========HEADER========= */
+
+.header{
+    height: 500px;
+    background: url("../img/main_bg.png") center center / cover no-repeat;
+}
+
+
+   /* ========CARDS========= */
+
+.cards{
+    padding: 30px 5px;
+}
+
+.cards_header{
+    font-size: 30px;
+    /* color: #1d1d1d; */
+    color: #FF3700;
+    text-align: start;
+    margin-top: 30px;
+    font-size: 34px;
+}
+
+.cards_divider{
+    height: 1px;
+    width: 1200px;
+    border: 1px solid #1d1d1d;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.cards_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cards_item{
+    width: 33%;
+    height: 400px;
+    border: 1px solid #000;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.cards_item:hover{
+    transform: scale(1.01);
+}
+
+.cards_item__title{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.cards_item__more{
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+}
+.cards_item__more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.black_bg{
+    width: 395px;
+    height: 400px;
+    background-color: rgba(32, 32, 32, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.black_bg:hover{
+    background-color: rgba(32, 32, 32, 0.1);
+}
+
+.card_wirerod{
+    background: url("../img/cards_wirerod1.jpg") center center / cover no-repeat;
+}
+
+.card_rebarcoil{
+    background: url("../img/card_rebarInCoils1.jpg") center center / cover no-repeat;
+}
+
+.card_rebarbar{
+    background: url("../img/card_rebar1.jpg") center center / cover no-repeat;
+}
+
+.card_section{
+    background: url("../img/img_section.JPG") center center / cover no-repeat;
+}
+
+.card_billet{
+    background: url("../img/card_billet1.jpg") center center / cover no-repeat;
+}
+
+.card_pigiron{
+    background: url("../img/card_pigiron.jpg") center center / cover no-repeat;
+}
+
+.footer{
+    background-color:rgb(32, 32, 32);
+}
+
+.footer_wrapper{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+/* =======WIRE ROD page======= */
+
+.wirerod{
+    padding: 30px 5px;
+}
+
+
+.wirerodCards{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.card_wirerod__item{
+    width: 380px;
+    margin-bottom: 40px;
+    color:#1d1d1d;
+}
+
+.card_wirerod__item img{
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+.card_wirerod__item a{
+    color: #1d1d1d;
+    text-decoration: underline;
+}
+
+.card_wirerod__item a:hover{
+    font-weight: 800;
+}
+
+.card_wirerod__item-title{
+    margin-bottom: 10px;
+}
+
+
+.card_wirerod__item-descr{
+    margin-bottom: 20px;
+}
+
+.card_wirerod__item-descr span{
+    font-style:italic;
+}
+
+
+.wirerod_table-characteristics{
+    width: 100%;
+    border: 1px solid #1d1d1d;
+    margin-bottom: 40px;
+}
+
+.wirerod_characteristics img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+table,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  font-weight: 700;
+}
+
+th{
+    background-color:rgb(236, 236, 236);
+}
+
+td{
+    font-weight: 300;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+  padding: 10px;
+}
+
+.wirerod_marking{
+    margin-bottom: 10px;
+}
+
+.wirerod_packaging{
+margin-bottom: 40px;
+}
+
+
+
+
+/* =======wire rod from carbon steel for wire production */
+
+.wirerod_carbonSteel__forWire{
+    padding: 30px 5px;
+/*     position: relative; */
+    
+}
+
+
+.wirerod_carbonSteel__forWire-title{
+    display: block;
+    margin-top: 40px;
+}
+.wirerod_chemical{
+    margin-top: 15px;
+}
+
+.wirerod_carbonSteel__forWire-header{
+    margin-top: 50px;
+}
+
+.wirerod_carbonSteel__forWire-chemical{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-weight: 700;
+}
+
+
+.wirerod_carbonSteel__forWire-chemical td{
+    padding: 5px;
+    width: 400px;
+}
+
+.wirerod_carbonSteel__forWire-chemical th{
+    background-color:rgb(236, 236, 236);
+}
+
+.wirerod_carbonSteel__forWire-notification{
+    margin-top: 5px;
+}
+
+.wirerod_carbonSteel__forWire-mechanical td{
+    padding: 5px;
+    width: 400px;
+}
+
+.managers_contacts{
+    display: none;
+}
+
+.client_button:hover{
+    box-shadow: 0px 0px 5px #000;
+}
+
+.call_managers__btn img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 10px;
+}
+.download_catalogue__btn img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 10px;
+}
+
+.header_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client_button {
+    width: 260px;
+    height: 30px;
+    color:#000000;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.product_gallery{
+    width: 180px;
+    height: 50px;
+    background-color:#FF3700;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.product_gallery a{
+    color:#fff;
+    text-decoration: none;
+}
+.product_gallery:hover{
+    text-decoration: underline;
+}
+
+/* ====slider===== */
+
+.slider{
+    width: 1000px;
+    height: 500px;
+    margin: 30px auto 0 auto;
+    position: relative;
+}
+
+.slider_img{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #FF3700;
+
+}
+
+.slider_right{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 225px;
+    right: -60px;
+    cursor: pointer;
+
+}
+.slider_left{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 225px;
+    left: -60px;
+    cursor: pointer;
+
+}
